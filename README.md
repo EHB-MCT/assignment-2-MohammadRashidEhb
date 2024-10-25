@@ -1,22 +1,14 @@
-# Your project name
-A short description of your project. 
+# Flappy Bird Clone
+This is my first ever Unity project, where I am following a tutorial to create a Flappy Bird clone. 
 
-Next, read this example and adapt it to your project.
-
-If you want to add more sections, please do so after the existing ones (avoid burying your sources under a lot of text!).
-
-Live link: [website.be](website.be) (optional)
-
-## Up & running (optional)
-- This should contain step by step instructions to run your project
-- Login information is mentioned here if applicable.
+## Up & running
+- Clone this repository to your local machine.
+- Open the project in Unity.
+- Ensure all dependencies are installed.
+- Press the play button in Unity to run the game.
 
 ## Sources 
+- ([Flappy Bird Clone Tutorial](https://youtu.be/XtQMytORBmM?si=q17_dS5j4zA_xZPL) - Following this tutorial to build the game.
+- Assets => https://www.dropbox.com/scl/fo/h8k4jhq564idb46j31czk/AHeDl5TZW6pZi6ZmSCXiaaM?rlkey=hn50slzeizx0602xxduvzw8kc&e=1&dl=0
+- Chatgpt, used prompt on the following link => 
 
-Given are some examples, delete and replace with your own.
-
-- [Multi auth in Laravel](https://stackoverflow.com/questions/50514738/multi-auth-use-one-page-login-laravel) used in http > controller > LoginController.php (line 18-67)
-- [Audio from ChatGPT](https://chatgpt.com/c/66dae37e-6da8-8001-99ab-245ad328416a) used in resources > music
-- [Chatgpt.com](https://chatgpt.com) ⚠️ this is an invalid example, because it links to a homepage instead of a specific page or issue
-- Generate a ChatGPT share link: options (three dots) > share.
-- If your lecturer still sees these default examples, you're in trouble
