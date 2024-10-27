@@ -7,6 +7,8 @@ public class BirdScript : MonoBehaviour
 {
     // Reference to the bird's Rigidbody2D component, which handles the physics (like jumping)
     public Rigidbody2D myRigidbody;
+
+    public float flapStrength;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class BirdScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) == true)
         {
             // This applies an upward force to the bird, making it jump
-             myRigidbody.velocity = Vector2.up * 10;
+             myRigidbody.velocity = Vector2.up * flapStrength;
         }
     }
 }
