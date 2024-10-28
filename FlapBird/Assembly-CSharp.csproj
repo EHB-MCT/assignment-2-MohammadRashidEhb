@@ -64,6 +64,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LogicScript.cs" />
+    <Compile Include="Assets\Scripts\PipeMiddleScript.cs" />
     <Compile Include="Assets\Scripts\BirdScript.cs" />
     <Compile Include="Assets\Scripts\PipeSpawnScript.cs" />
     <Compile Include="Assets\Scripts\PipeMoveScript.cs" />
