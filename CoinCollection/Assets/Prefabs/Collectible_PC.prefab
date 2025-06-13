@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3172551613812312095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -210.06596
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 224.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139262594455509693, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421622112939184979, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      propertyPath: m_Name
+      value: ItemPivot (7) Variant Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5421622112939184979, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1424921906793689484}
+    - targetCorrespondingSourceObject: {fileID: 5421622112939184979, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2924890067726285514}
+  m_SourcePrefab: {fileID: 100100000, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+--- !u!1 &7438348394617412428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5421622112939184979, guid: 063c429f369b4eb45b5f3e9a5809fa2d, type: 3}
+  m_PrefabInstance: {fileID: 3172551613812312095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1424921906793689484
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438348394617412428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.56, y: 1.65, z: 1.79}
+  m_Center: {x: -4.6591404e-11, y: 0.57, z: 0.47}
+--- !u!114 &2924890067726285514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438348394617412428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20cf87d66aa9b7445910fe12d3f4392a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectFX: {fileID: 0}
