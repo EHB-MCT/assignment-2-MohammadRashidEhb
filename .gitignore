@@ -2,6 +2,12 @@
 .DS_Store
 Thumbs.db
 
+# Ignore a specific large video file
+CoinCollection/Assets/Videos/Digital Inclusion & Democratising Healthcare Vodafone in Health.mp4
+
+# Ignore all mp4 files in the Videos folder
+CoinCollection/Assets/Videos/*.mp4
+
 # Windows Installer files
 *.cab
 *.msi
